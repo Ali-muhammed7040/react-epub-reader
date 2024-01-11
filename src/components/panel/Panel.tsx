@@ -119,7 +119,7 @@ function Panel() {
             <IconButton edge="start" color="inherit" aria-label="menu" sx={{ mr: 2 }} onClick={toggleCatalogue}>
               <MenuIcon />
             </IconButton>
-            {'EPUB READER'}
+            {'Simply Memoirs'}
 
             {isSearchDrawer}
 

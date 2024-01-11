@@ -20,7 +20,7 @@ function Reader(props: IReaderProps) {
     <readerContext.Provider value={epubReaderState}>
       <Snackbar></Snackbar>
       <Panel></Panel>
-      <Catalogue></Catalogue>
+      {/* <Catalogue></Catalogue> */}
       <ContentView></ContentView>
     </readerContext.Provider>
 

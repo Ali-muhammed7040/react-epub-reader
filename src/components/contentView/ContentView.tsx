@@ -10,6 +10,7 @@ function ContentView() {
   if (!context) return null
 
   const { rendition, atStart, atEnd, isPanelBar } = context
+  console.log(atEnd,'rendition')
 
   const goPrevPage = async () => {
     rendition.current && await rendition.current.prev()
